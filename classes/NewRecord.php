@@ -2,7 +2,7 @@
 
 class NewRecord extends \Illuminate\Database\Eloquent\Model
 {
-    protected $fillable = [
+    public $fillable = [
         'email', 
         'fname', 
         'lname', 
